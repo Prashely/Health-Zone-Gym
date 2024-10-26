@@ -14,23 +14,30 @@ const FAQs = () => {
           </div>
           <div className="collapse-content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              sapiente quos quod labore vel inventore harum deleniti
-              consequuntur nesciunt, rem sequi, rerum magnam, illum?
+              Absolutely not, whether you are beginning you fitness journey or
+              already on your fitness journey, Health Zone offers expert
+              coaching and personal training to help you reach your fitness
+              goals regardless of your experience. Let's find a plan that suits
+              you{" "}
+              <a href="#contact" className="text-bgSecondary underline">
+                click here
+              </a>
             </p>
           </div>
         </div>
         <div className="collapse collapse-arrow bg-bgPrimary text-white mb-0.5">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-xl font-medium">
-            Can I join as a beginner?
+            Are packages for couples?
           </div>
           <div className="collapse-content">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id animi
-              quam, officiis asperiores voluptatibus officia accusantium placeat
-              facere. Sapiente, laboriosam commodi. Repellendus sunt nihil vitae
-              sequi blanditiis! Ducimus, iusto culpa.
+              Yes, at Health Zone we offer a variety of packages. If you get a
+              membership with your partner there are special discounts, and the
+              longer the contract the less you will be paying, for more details{" "}
+              <a href="#contact" className="text-bgSecondary underline">
+                click here
+              </a>
             </p>
           </div>
         </div>
@@ -41,9 +48,12 @@ const FAQs = () => {
           </div>
           <div className="collapse-content">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-              sequi facilis exercitationem animi excepturi odit, quaerat ipsam
-              minima ipsa aut.
+              No contracts can not be cancelled unless is due to unavoidable
+              causes, Before choosing a contract plan consider your finances.
+              Let us help you pick a plan that suits you
+              <a href="#contact" className="text-bgSecondary underline ml-1">
+                click here
+              </a>
             </p>
           </div>
         </div>
@@ -54,10 +64,9 @@ const FAQs = () => {
           </div>
           <div className="collapse-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              quae consectetur atque, quasi vitae consequatur labore excepturi,
-              doloremque veniam dignissimos blanditiis eius ratione esse, at
-              magnam voluptate sapiente praesentium magni!
+              During the week the gym is open from 4am to 8pm everyday including
+              holidays. Saturday the gym is open from 7am to 12pm. And Sundays
+              is from 9am to 12pm.
             </p>
           </div>
         </div>

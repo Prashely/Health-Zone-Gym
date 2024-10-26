@@ -39,7 +39,7 @@ const Benefits = () => {
           <ul className="flex flex-col md:flex-row md:w-[600px] md:flex-wrap justify-center gap-2 text-lg ">
             <li className="flex items-center">
               <FaRegCheckCircle className="text-bgSecondary mr-2 text-2xl font-black" />{" "}
-              Free internet
+              Weight Lifting
             </li>
             <li className="flex items-center">
               <FaRegCheckCircle className="text-bgSecondary mr-2 text-2xl font-black" />{" "}
@@ -47,7 +47,11 @@ const Benefits = () => {
             </li>
             <li className="flex items-center">
               <FaRegCheckCircle className="text-bgSecondary mr-2 text-2xl font-black" />{" "}
-              Flexible class schedules
+              Full Range Cardio
+            </li>
+            <li className="flex items-center">
+              <FaRegCheckCircle className="text-bgSecondary mr-2 text-2xl font-black" />{" "}
+              Free Wi-fi
             </li>
             <li className="flex items-center">
               <FaRegCheckCircle className="text-bgSecondary mr-2 text-2xl font-black" />{" "}

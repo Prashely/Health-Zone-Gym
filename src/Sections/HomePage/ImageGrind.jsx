@@ -12,7 +12,7 @@ const ImageGrid = () => {
           {/* First Grid: Single Image */}
           <div className="w-[40vw] lg:w-[25vw] min-w-0">
             <img
-              src={One}
+              src={Two}
               alt="Image 1"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
@@ -21,7 +21,7 @@ const ImageGrid = () => {
           {/* Second Grid: Two Images Stacked */}
           <div className="flex flex-col lg:flex-row w-[50vw] gap-3">
             <img
-              src={Two}
+              src={One}
               alt="Image 2"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />

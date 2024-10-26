@@ -1,5 +1,6 @@
 import React from "react";
 import { FaQuoteLeft, FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 import Reviews from "../../assets/components/ui/Reviews";
 
 const Testimonials = () => {
@@ -48,7 +49,14 @@ const Testimonials = () => {
                 <div className="w-full flex justify-center mt-4">
                   {renderStars(review.rating)}
                 </div>
-                <p className="text-md font-semibold mt-2">{review.reviewer}</p>
+                <div className="flex flex-row items-center justify-center gap-1">
+                  <span className="mt-2">
+                    <FcGoogle />
+                  </span>
+                  <p className="text-md font-semibold mt-2">
+                    {review.reviewer}
+                  </p>
+                </div>
               </div>
             </div>
           ))}
@@ -58,7 +66,7 @@ const Testimonials = () => {
         <p className="text-center">
           Are you a member?
           <a
-            href="#"
+            href="https://tinyurl.com/3n6zb7fa"
             target="_blank"
             className="ml-1 underline text-bgSecondary"
           >

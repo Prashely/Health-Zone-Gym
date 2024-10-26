@@ -1,16 +1,26 @@
 import React, { useState } from "react";
+import myImage from "../../assets/images/pricing/prices.jpg";
 
 const Pricing = () => {
   const [activeTab, setActiveTab] = useState("1m");
+
+  const handleDownload = () => {
+    const link = document.createElement("a"); // Create a new anchor element
+    link.href = myImage; // Set the link to the image source
+    link.download = "Health-Zone-Prices.jpg"; // Set the name for the downloaded file
+    document.body.appendChild(link); // Append the link to the body
+    link.click(); // Programmatically click the link to trigger the download
+    document.body.removeChild(link); // Remove the link after downloading
+  };
 
   const pricingData = {
     scholars: {
       label: "Scholars (<19)",
       prices: {
-        "1m": "R300",
-        "3m": "R250",
-        "6m": "R200",
-        "1yr": "R166",
+        "1m": "R400",
+        "3m": "R300",
+        "6m": "R250",
+        "1yr": "R208",
         "2yr": "---",
       },
     },
@@ -149,7 +159,10 @@ const Pricing = () => {
         </div>
       </div>
       <div>
-        <button className="btn w-[250px] mt-4 bg-bgSecondary text-bgPrimary">
+        <button
+          className="btn w-[250px] mt-4 bg-bgSecondary text-bgPrimary"
+          onClick={handleDownload}
+        >
           Share Prices
         </button>
       </div>

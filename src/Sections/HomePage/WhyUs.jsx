@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useMemo } from "react";
 import { GoDot, GoDotFill } from "react-icons/go";
 import Reasons from "../../assets/components/ui/Reasons";
 import Twelve from "../../assets/images/HZ18.jpg";
@@ -11,6 +11,11 @@ import { IoMdPricetags } from "react-icons/io";
 const WhyUs = () => {
   const [activeItem, setActiveItem] = useState(1); // Track the active card
   const carouselRef = useRef(null);
+
+  // Define icons as memoized values to prevent re-renders
+  const DumbbellIcon = useMemo(() => <BiDumbbell />, []);
+  const GroupIcon = useMemo(() => <HiUserGroup />, []);
+  const PriceIcon = useMemo(() => <IoMdPricetags />, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -25,13 +30,13 @@ const WhyUs = () => {
           }
         });
       },
-      { threshold: 0.6 }
+      { threshold: 0.5 } // Adjusted threshold to reduce observer triggers
     );
 
     const items = document.querySelectorAll(".carousel-item");
     items.forEach((item) => observer.observe(item));
 
-    return () => observer.disconnect();
+    return () => observer.disconnect(); // Cleanup observer on unmount
   }, [activeItem]);
 
   return (
@@ -45,28 +50,28 @@ const WhyUs = () => {
           ref={carouselRef}
           className="carousel carousel-center lg:flex lg:justify-center rounded-box space-x-6 p-4"
         >
-          <div id="item1" className="carousel-item" data-index="1">
+          <div id="item1" className="carousel-item" data-index="1" key="item1">
             <Reasons
               imageSrc={Twelve}
-              icon={<BiDumbbell />}
+              icon={DumbbellIcon}
               title="Personal Trainer"
               description="We have coaches with a ton of experience ready to help you achieve all your body goals"
             />
           </div>
-          <div id="item2" className="carousel-item" data-index="2">
+          <div id="item2" className="carousel-item" data-index="2" key="item2">
             <Reasons
               imageSrc={Seven}
-              icon={<HiUserGroup />}
+              icon={GroupIcon}
               title="Group Classes"
-              description="Want to stay motivated and consistent in your fitness Journey, Your Gym Name offers a variety of group classes to help you stay consistent and reach your body goals"
+              description="Want to stay motivated and consistent in your fitness Journey? Your Gym Name offers a variety of group classes to help you stay consistent and reach your body goals"
             />
           </div>
-          <div id="item3" className="carousel-item" data-index="3">
+          <div id="item3" className="carousel-item" data-index="3" key="item3">
             <Reasons
               imageSrc={Eleven}
-              icon={<IoMdPricetags />}
+              icon={PriceIcon}
               title="Variety of Plans"
-              description="Are you scholar, student, spouse, parent or even a grandparent? Your Gym Name offers a variety of plans that suit your your budget."
+              description="Are you a scholar, student, spouse, parent, or even a grandparent? Your Gym Name offers a variety of plans that suit your budget."
             />
           </div>
         </div>

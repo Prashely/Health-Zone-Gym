@@ -20,12 +20,14 @@ const HeroSection = () => {
       <div className="hero-content flex-col lg:flex-row mb-4 md:mb-0 relative z-10">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="md:text-5xl text-3xl text-white font-black">
-            A Gym That Gives You More - Fitness Beyond Limits.
+            A Gym That Gives You More - Fitness{" "}
+            <span className="text-bgSecondary font-bold">Beyond Limits.</span>
           </h1>
           <p className="text-white md:text-xl py-3 md:px-24 lg:px-0 lg:py-6">
             Welcome to your next chapter, we are thrilled to have you join us -
             best gym in town. Please leave your contacts below and we'll get in
-            touch asap. No commitments.
+            touch ASAP.
+            <span className="text-bgSecondary font-bold"> No commitments.</span>
           </p>
         </div>
         <div>
