@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef, useMemo } from "react";
 import { GoDot, GoDotFill } from "react-icons/go";
 import Reasons from "../../assets/components/ui/Reasons";
-import Twelve from "../../assets/images/HZ18.jpg";
+import Twelve from "../../assets/images/HZ18.png";
 import Seven from "../../assets/images/HZ17.jpg";
 import Eleven from "../../assets/images/HZ6.jpg";
 import { BiDumbbell } from "react-icons/bi";

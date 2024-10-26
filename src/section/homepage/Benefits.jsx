@@ -7,8 +7,7 @@ const Benefits = () => {
     <section
       className="relative bg-center bg-cover bg-no-repeat text-white py-8"
       style={{
-        backgroundImage: `url(${One})`, // Replace with your image URL
-        backgroundAttachment: "fixed", // This gives the parallax effect
+        backgroundImage: `url(${One})`, // Replace with your image URL, // This gives the parallax effect
         backgroundSize: "cover", // This makes the image cover the entire background
       }}
     >
