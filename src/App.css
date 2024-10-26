@@ -1,0 +1,21 @@
+.section-header {
+  display: flex;
+  align-items: center; /* Aligns the text and line horizontally */
+}
+
+.section-header::before {
+  content: "";
+  flex-grow: 1;
+  height: 2px; /* Thickness of the line */
+  background-color: #525252; /* Color of the line */
+  margin-right: 10px; /* Space between the line and text */
+}
+
+.section-header h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem; /* Adjust as per your design */
+  font-weight: bolder;
+  letter-spacing: -1px; /* Tighter letter spacing */
+  color: #000000;
+  margin: 1.5rem 0 1.5rem 0; /* Color of the text */
+}
