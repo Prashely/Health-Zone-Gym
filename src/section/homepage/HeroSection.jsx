@@ -12,6 +12,7 @@ const HeroSection = () => {
       style={{
         backgroundImage: `url(${Two})`,
         backgroundAttachment: "fixed",
+        backgroundSize: "cover",
       }}
     >
       {/* Dark overlay */}
@@ -20,7 +21,7 @@ const HeroSection = () => {
       <div className="hero-content flex-col lg:flex-row mb-4 md:mb-0 relative z-10">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="md:text-5xl text-3xl text-white font-black">
-            A Gym That Gives You More - Fitness{" "}
+            A Gym That Gives You More - Fitness
             <span className="text-bgSecondary font-bold">Beyond Limits.</span>
           </h1>
           <p className="text-white md:text-xl py-3 md:px-24 lg:px-0 lg:py-6">

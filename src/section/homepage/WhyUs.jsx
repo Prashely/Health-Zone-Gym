@@ -63,7 +63,7 @@ const WhyUs = () => {
               imageSrc={Seven}
               icon={GroupIcon}
               title="Group Classes"
-              description="Want to stay motivated and consistent in your fitness Journey? Your Gym Name offers a variety of group classes to help you stay consistent and reach your body goals"
+              description="Want to stay motivated and consistent in your fitness Journey? Health ZoneName offers a variety of group classes to help you stay consistent and reach your body goals"
             />
           </div>
           <div id="item3" className="carousel-item" data-index="3" key="item3">
@@ -71,7 +71,7 @@ const WhyUs = () => {
               imageSrc={Eleven}
               icon={PriceIcon}
               title="Variety of Plans"
-              description="Are you a scholar, student, spouse, parent, or even a grandparent? Your Gym Name offers a variety of plans that suit your budget."
+              description="Are you a scholar, student, spouse, parent, or even a grandparent? Health ZoneName offers a variety of plans that suit your budget."
             />
           </div>
         </div>

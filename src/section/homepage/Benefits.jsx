@@ -9,14 +9,15 @@ const Benefits = () => {
       style={{
         backgroundImage: `url(${One})`, // Replace with your image URL
         backgroundAttachment: "fixed", // This gives the parallax effect
+        backgroundSize: "cover", // This makes the image cover the entire background
       }}
     >
       {/* Semi-transparent overlay */}
       <div className="absolute inset-0 bg-black opacity-75"></div>
       <div className="relative z-10 flex flex-col md:justify-center md:items-center md:text-center items-start ml-6 mt-14">
         <div>
-          <p className="font-black tracking-tighter mb-4">
-            YOU GYM NAME CENTER
+          <p className="font-black tracking-tighter text-bgPrimary mb-4">
+            HEALTHZONE GYM
           </p>
           <h2 className="text-2xl text-left font-black mb-4 tracking-tighter">
             JOIN THE BEST GYM IN
@@ -65,7 +66,7 @@ const Benefits = () => {
         </div>
 
         {/* Call to Action */}
-        <button className="mt-6 px-6 py-3 bg-bgSecondary text-black font-bold rounded-md md:w-[200px]">
+        <button className="mt-6 px-6 py-3 text-bgPrimary bg-bgSecondary font-bold rounded-md md:w-[200px]">
           Join Us
         </button>
       </div>

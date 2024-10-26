@@ -8,14 +8,14 @@ const Reviews = () => {
       reviewer: "Jray Coetzee",
     },
     {
-      text: "Open from 4am. All the equipment one would need. Larger selection of free weights and less pricey than the nearby alternative. A bit cramped in areas, but not too busy in the mornings and before 6pm. A large space for aerobics. Spinning classes are also on offer. Water dispensers, steam room and change room facilities available.",
-      rating: 4,
-      reviewer: "Jonathan Dutton",
-    },
-    {
       text: "Been a client for more than 7 years, great equipment, friendly staff, good pumps and met some of my bedt friends there, highly recommended",
       rating: 4,
       reviewer: "Minnaar Jc",
+    },
+    {
+      text: "Open from 4am. All the equipment one would need. Larger selection of free weights and less pricey than the nearby alternative. A bit cramped in areas, but not too busy in the mornings and before 6pm. A large space for aerobics. Spinning classes are also on offer. Water dispensers, steam room and change room facilities available.",
+      rating: 4,
+      reviewer: "Jonathan Dutton",
     },
     {
       text: "Been a client for more than 7 years, great equipment, friendly staff, good pumps and met some of my bedt friends there, highly recommended",

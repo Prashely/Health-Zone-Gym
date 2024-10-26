@@ -13,7 +13,7 @@ const NavBar = () => {
     <>
       <div className="navbar bg-white">
         <div className="navbar-start">
-          <a href="#contact">
+          <a href="https://health-zone-gym.vercel.app/">
             <img src={Logo} alt="Health Zone Gym" className="h-16 w-18" />
           </a>
         </div>
