@@ -22,7 +22,9 @@ const HeroSection = () => {
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="md:text-5xl text-3xl text-white font-black">
             A Gym That Gives You More - Fitness
-            <span className="text-bgSecondary font-bold">Beyond Limits.</span>
+            <span className="text-bgSecondary font-bold ml-1">
+              Beyond Limits.
+            </span>
           </h1>
           <p className="text-white md:text-xl py-3 md:px-24 lg:px-0 lg:py-6">
             Welcome to your next chapter, we are thrilled to have you join us -
