@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegCheckCircle } from "react-icons/fa";
-import One from "../../assets/images/1.jpg";
+import One from "../../assets/images/HZ1.jpg";
 
 const Benefits = () => {
   return (

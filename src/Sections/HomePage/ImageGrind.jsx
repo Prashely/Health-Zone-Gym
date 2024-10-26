@@ -1,7 +1,7 @@
 import React from "react";
-import Nine from "../../assets/images/9.jpg";
-import Ten from "../../assets/images/10.jpg";
-import Eight from "../../assets/images/8.jpg";
+import One from "../../assets/images/HZ19.jpg";
+import Two from "../../assets/images/HZ13.jpg";
+import Three from "../../assets/images/HZ9.jpg";
 
 const ImageGrid = () => {
   return (
@@ -12,7 +12,7 @@ const ImageGrid = () => {
           {/* First Grid: Single Image */}
           <div className="w-[40vw] lg:w-[25vw] min-w-0">
             <img
-              src={Nine}
+              src={One}
               alt="Image 1"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
@@ -21,12 +21,12 @@ const ImageGrid = () => {
           {/* Second Grid: Two Images Stacked */}
           <div className="flex flex-col lg:flex-row w-[50vw] gap-3">
             <img
-              src={Ten}
+              src={Two}
               alt="Image 2"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
             <img
-              src={Eight}
+              src={Three}
               alt="Image 3"
               className="w-full h-full object-cover rounded-lg shadow-lg lg:mb-100"
             />
