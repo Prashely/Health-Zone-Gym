@@ -55,7 +55,7 @@ const WhyUs = () => {
               imageSrc={Twelve}
               icon={DumbbellIcon}
               title="Personal Trainer"
-              description="We have coaches with a ton of experience ready to help you achieve all your body goals"
+              description="We have coaches and personal trainers with a ton of experience ready to help you achieve all your body goals in time"
             />
           </div>
           <div id="item2" className="carousel-item" data-index="2" key="item2">
@@ -63,7 +63,7 @@ const WhyUs = () => {
               imageSrc={Seven}
               icon={GroupIcon}
               title="Group Classes"
-              description="Want to stay motivated and consistent in your fitness Journey? Health ZoneName offers a variety of group classes to help you stay consistent and reach your body goals"
+              description="Want to stay motivated and consistent in your fitness Journey? Health Zone Gym offers a variety of group classes to help you stay consistent and reach your body goals."
             />
           </div>
           <div id="item3" className="carousel-item" data-index="3" key="item3">
@@ -71,7 +71,7 @@ const WhyUs = () => {
               imageSrc={Eleven}
               icon={PriceIcon}
               title="Variety of Plans"
-              description="Are you a scholar, student, spouse, parent, or even a grandparent? Health ZoneName offers a variety of plans that suit your budget."
+              description="Are you a scholar, student, spouse, parent, or even a grandparent? Health Zone Gym offers a variety of plans that suit your budget."
             />
           </div>
         </div>
