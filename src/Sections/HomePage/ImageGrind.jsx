@@ -22,7 +22,7 @@ const ImageGrid = () => {
           <div className="flex flex-col lg:flex-row w-[50vw] gap-3">
             <img
               src={One}
-              alt="Image 2"
+              alt="Image 1"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
             <img

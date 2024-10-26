@@ -4,11 +4,11 @@ import Footer from "../assets/components/ui/Footer";
 import HeroSection from "../sections/homepage/HeroSection";
 import WhyUs from "../sections/homepage/WhyUs";
 import Benefits from "../sections/homepage/Benefits";
-import FAQs from "../sections/homepage/FAQs";
-import ContactUs from "../sections/homepage/ContactUs";
-import Testimonials from "../sections/homepage/Testimonials";
+import FAQs from "../Sections/HomePage/FAQs";
+import ContactUs from "../Sections/HomePage/ContactUs";
+import Testimonials from "../Sections/HomePage/Testimonials";
 import Pricing from "../sections/homepage/Pricing";
-import ImageGrid from "../sections/homepage/ImageGrind";
+import ImageGrid from "../Sections/HomePage/ImageGrind";
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white">
