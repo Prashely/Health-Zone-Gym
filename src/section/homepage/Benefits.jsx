@@ -65,9 +65,12 @@ const Benefits = () => {
         </div>
 
         {/* Call to Action */}
-        <button className="mt-6 px-6 py-3 text-bgPrimary bg-bgSecondary font-bold rounded-md md:w-[200px]">
+        <a
+          className="btn bg-bgSecondary text-bgPrimary px-10 py-4 font-black mt-3"
+          href="#contact"
+        >
           Join Us
-        </button>
+        </a>
       </div>
     </section>
   );
