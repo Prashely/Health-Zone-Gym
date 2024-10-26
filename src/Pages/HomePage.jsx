@@ -1,13 +1,13 @@
 import React from "react";
 import NavBar from "../assets/components/ui/NavBar";
 import Footer from "../assets/components/ui/Footer";
-import HeroSection from "../sections/homepage/HeroSection";
-import WhyUs from "../sections/homepage/WhyUs";
-import Benefits from "../sections/homepage/Benefits";
+import HeroSection from "../Sections/Homepage/HeroSection";
+import WhyUs from "../Sections/Homepage/WhyUs";
+import Benefits from "../Sections/Homepage/Benefits";
 import FAQs from "../Sections/HomePage/FAQs";
 import ContactUs from "../Sections/HomePage/ContactUs";
 import Testimonials from "../Sections/HomePage/Testimonials";
-import Pricing from "../sections/homepage/Pricing";
+import Pricing from "../Sections/Homepage/Pricing";
 import ImageGrid from "../Sections/HomePage/ImageGrind";
 const HomePage = () => {
   return (
