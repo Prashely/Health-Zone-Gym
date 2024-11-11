@@ -5,7 +5,7 @@ import { HiMiniChatBubbleBottomCenterText } from "react-icons/hi2";
 const ChatbotIcon = ({ onClick }) => {
   return (
     <div
-      className="fixed bottom-4 right-4 bg-bgPrimary text-bgSecondary text-5xl rounded-xl p-1 pb-0 shadow-lg cursor-pointer"
+      className="fixed bottom-4 right-4 bg-bgPrimary text-bgSecondary text-5xl rounded-xl p-1 pb-0 shadow-lg cursor-pointer z-50"
       onClick={onClick}
     >
       {/* Chat Icon */}
