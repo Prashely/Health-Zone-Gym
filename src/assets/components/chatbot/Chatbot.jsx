@@ -56,8 +56,9 @@ const Chatbot = () => {
           <div className="text-left">
             <span className="bg-white text-bgPrimary p-2 rounded inline-block">
               Hey, Welcome to the Health Zone Online Assistance! We are
-              currently running promotions. Click <strong>Main Menu</strong>
-              below for details.
+              currently running promotions, click{" "}
+              <strong className="ml-1">Main Menu</strong>
+              below for more details.
             </span>
           </div>
           <button
