@@ -46,9 +46,9 @@ const Chatbot = () => {
 
   const handlePromoClick = (promo) => {
     const promoLinks = {
-      "November Promo": "src/assets/images/promos/November.png",
-      "December Promo": "src/assets/images/promos/December.png",
-      "2024 Promo": "src/assets/images/promos/2024.jpg",
+      "November Promo": "/images/promos/November.png",
+      "December Promo": "/images/promos/December.png",
+      "2024 Promo": "/images/promos/2024.jpg",
     };
     window.open(promoLinks[promo], "_blank");
   };
@@ -181,7 +181,7 @@ const Chatbot = () => {
               </p>
               <button
                 onClick={() => {
-                  window.open("src/assets/images/pricing/prices.jpg", "_blank");
+                  window.open("/images/pricing/prices.jpg", "_blank");
                 }}
                 className="block w-full p-2 bg-green-600 text-white mb-2 rounded"
               >
