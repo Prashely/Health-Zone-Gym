@@ -1,4 +1,3 @@
-// ChatbotIcon.jsx
 import React from "react";
 import { HiMiniChatBubbleBottomCenterText } from "react-icons/hi2";
 
