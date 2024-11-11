@@ -27,7 +27,8 @@ const Chatbot = () => {
         setShowOptions(false);
         break;
       case "whatsapp":
-        window.location.href = "https://wa.me/?text=Hello, How are you?";
+        window.location.href =
+          "https://api.whatsapp.com/send?phone=%2B27824924196&text=Hello,%20How%20are%20you?";
         break;
       case "reviews":
         setShowReviewOption(true);
@@ -40,9 +41,9 @@ const Chatbot = () => {
 
   const handlePromoClick = (promo) => {
     const promoLinks = {
-      "November Promo": "../../images/promos/November.png",
-      "December Promo": "../../images/promos/December.png",
-      "2024 Promo": "../../images/promos/2024.jpg",
+      "November Promo": "src/assets/images/promos/November.png",
+      "December Promo": "src/assets/images/promos/December.png",
+      "2024 Promo": "src/assets/images/promos/2024.jpg",
     };
     window.open(promoLinks[promo], "_blank");
   };
@@ -143,7 +144,7 @@ const Chatbot = () => {
           <button
             className="block w-full p-2 bg-purple-600 text-white mb-2 rounded"
             onClick={() => {
-              window.location.href = "/reviews-url";
+              window.location.href = "https://tinyurl.com/3n6zb7fa";
             }}
           >
             Review
@@ -167,7 +168,7 @@ const Chatbot = () => {
           </p>
           <button
             onClick={() => {
-              window.open("/path/to/pricing-image.jpg", "_blank");
+              window.open("src/assets/images/pricing/prices.jpg", "_blank");
             }}
             className="block w-full p-2 bg-green-600 text-white mb-2 rounded"
           >
