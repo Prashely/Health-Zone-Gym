@@ -9,8 +9,8 @@ import ContactUs from "../section/homepage/ContactUs";
 import Testimonials from "../section/homepage/Testimonials";
 import Pricing from "../section/homepage/Pricing";
 import ImageGrid from "../section/homepage/ImageGrind";
-import ChatbotIcon from "../assets/components/chatbot/ChatBotIcon"; // Update with correct path if needed
-import Chatbot from "../assets/components/chatbot/Chatbot"; // Update with correct path if needed
+import ChatbotIcon from "../assets/components/chatbot/ChatBotIcon";
+import Chatbot from "../assets/components/chatbot/Chatbot";
 
 const HomePage = () => {
   const [showChatbot, setShowChatbot] = useState(false);
