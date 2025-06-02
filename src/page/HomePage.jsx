@@ -25,7 +25,6 @@ const HomePage = () => {
         <WhyUs />
         <Benefits />
         <ImageGrid />
-        <Pricing />
         <ContactUs />
       </main>
       <footer>

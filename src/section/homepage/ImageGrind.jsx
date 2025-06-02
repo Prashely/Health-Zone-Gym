@@ -1,7 +1,7 @@
 import React from "react";
-import One from "../../assets/images/HZ19.jpg";
-import Two from "../../assets/images/HZ13.png";
-import Three from "../../assets/images/HZ11.jpg";
+import One from "../../assets/images/some.jpg";
+import Two from "../../assets/images/kids.jpg";
+import Three from "../../assets/images/dennis.jpg";
 
 const ImageGrid = () => {
   return (
