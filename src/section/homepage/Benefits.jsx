@@ -4,7 +4,7 @@ import One from "../../assets/images/jj.jpg";
 
 const Benefits = () => {
   return (
-    <section className="bg-primary text-white py-8">
+    <section className="bg-primary text-white py-8 pl-6">
       <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start">
         {/* Text Content */}
         <div className="flex-1 md:pr-10 mt-14 md:mt-0">

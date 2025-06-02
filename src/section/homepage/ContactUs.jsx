@@ -39,9 +39,9 @@ const ContactUs = () => {
   return (
     <section
       id="contact"
-      className="flex items-center justify-center bg-gray-50 py-16 md:py-20 lg:py-28"
+      className="flex items-center justify-center px-10 md:px-0 bg-gray-50 py-16 md:py-20 lg:py-28"
     >
-      <div className="container">
+      <div className="">
         <div className="-mx-4 flex flex-wrap items-center justify-center">
           {/* Contact Info Box */}
           <div className="w-full px-4 lg:w-1/2">
@@ -87,15 +87,16 @@ const ContactUs = () => {
           <div className="mt-12 w-full px-4 lg:mt-0 lg:w-1/2">
             <div className="overflow-hidden rounded-xl shadow-lg h-[400px]">
               <iframe
-                src="https://maps.google.com/maps?q=Maporch%20Enterprise&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.0497726558256!2d28.764714976124782!3d-23.85236627234934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec76733308b56b1%3A0xb9750c801c6e313f!2sDennis%20Matlhaba%20Ii%20Secondary%20School!5e0!3m2!1sen!2sza!4v1748901497049!5m2!1sen!2sza"
                 width="100%"
                 height="100%"
                 className="w-full h-full"
-                allowFullScreen
+                style={{ border: 0 }}
+                allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Map Location"
-              ></iframe>
+                title="Dennis Matlhaba II Secondary School Location"
+              />
             </div>
           </div>
         </div>

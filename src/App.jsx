@@ -3,7 +3,7 @@ import Home from "./page/HomePage";
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full min-h-screen">
       <Home />
     </div>
   );

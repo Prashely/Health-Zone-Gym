@@ -74,26 +74,26 @@ const WhyUs = () => {
             />
           </div>
         </div>
-        <div className="lg:hidden flex w-full justify-center gap-2 py-2">
-          <a href="#item1" className="bg-white">
+        <div className="lg:hidden flex w-full justify-center gap-2 py-2 bg-white/80 rounded-lg shadow">
+          <a href="#item1" className="rounded-full p-1">
             {activeItem === 1 ? (
-              <GoDotFill className="transition-all duration-200 ease-in-out text-xl text-primary" />
+              <GoDotFill className="transition-all duration-200 ease-in-out text-2xl text-bgPrimary" />
             ) : (
-              <GoDot className="transition-all duration-200 ease-in-out text-xl" />
+              <GoDot className="transition-all duration-200 ease-in-out text-2xl text-bgPrimary/60" />
             )}
           </a>
-          <a href="#item2" className="bg-white">
+          <a href="#item2" className="rounded-full p-1">
             {activeItem === 2 ? (
-              <GoDotFill className="transition-all duration-200 ease-in-out text-xl text-primary" />
+              <GoDotFill className="transition-all duration-200 ease-in-out text-2xl text-bgPrimary" />
             ) : (
-              <GoDot className="transition-all duration-200 ease-in-out text-xl" />
+              <GoDot className="transition-all duration-200 ease-in-out text-2xl text-bgPrimary/60" />
             )}
           </a>
-          <a href="#item3" className="bg-white">
+          <a href="#item3" className="rounded-full p-1">
             {activeItem === 3 ? (
-              <GoDotFill className="transition-all duration-200 ease-in-out text-xl text-primary" />
+              <GoDotFill className="transition-all duration-200 ease-in-out text-2xl text-bgPrimary" />
             ) : (
-              <GoDot className="transition-all duration-200 ease-in-out text-xl" />
+              <GoDot className="transition-all duration-200 ease-in-out text-2xl text-bgPrimary/60" />
             )}
           </a>
         </div>

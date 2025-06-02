@@ -16,7 +16,7 @@ const HomePage = () => {
   const [showChatbot, setShowChatbot] = useState(false);
 
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className=" bg-white w-screen">
       <nav>
         <NavBar />
       </nav>
