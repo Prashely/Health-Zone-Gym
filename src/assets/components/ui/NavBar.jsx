@@ -1,32 +1,24 @@
 import React from "react";
-import Logo from "../../images/logo/HZLOGO3.png";
+import Logo from "../../images/logo.jpg";
 
 const NavBar = () => {
-  const scrollToSection = () => {
-    document.getElementById("contact").scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  };
-
   return (
-    <>
-      <div className="navbar bg-white">
-        <div className="navbar-start">
-          <a href="https://health-zone-gym.vercel.app/">
-            <img src={Logo} alt="Health Zone Gym" className="h-16 w-18" />
-          </a>
-        </div>
-        <div className="navbar-end">
-          <a
-            className="btn bg-bgSecondary text-bgPrimary px-10 py-4 font-black"
-            href="#contact"
-          >
-            Join Us
-          </a>
-        </div>
+    <nav className="bg-white shadow-md w-full">
+      <div className="container mx-auto flex items-center justify-between py-2 px-4">
+        <a
+          href="https://www.dennismatlhabasecondary.co.za/"
+          className="flex items-center"
+        >
+          <img src={Logo} alt="Dennis Matlhaba" className="h-14 w-auto" />
+        </a>
+        <a
+          className="btn bg-bgSecondary text-white px-8 py-3 font-black rounded-md"
+          href="#contact"
+        >
+          Contact Us
+        </a>
       </div>
-    </>
+    </nav>
   );
 };
 

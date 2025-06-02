@@ -17,6 +17,7 @@
     transform: translateY(100%);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -28,6 +29,7 @@
     transform: translateY(0);
     opacity: 1;
   }
+
   to {
     transform: translateY(100%);
     opacity: 0;
@@ -45,15 +47,18 @@ html {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  color: white;
 }
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .custom-tab-active {
-  background-color: #fdf02e !important; /* Uses the bgSecondary color */
-  color: white !important; /* Ensures text color stays white */
+  background-color: #fdf02e !important;
+  /* Uses the bgSecondary color */
+  color: white !important;
+  /* Ensures text color stays white */
 }
 
 .carousel-item {

@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgPrimary: "#373790" /* Blue */,
-        bgSecondary: "#fdf02e" /* Yellow */,
+        bgPrimary: "#003366" /* Blue */,
+        primary: "#003366" /* Blue */,
+        bgSecondary: "#003eaa" /* Yellow */,
         bgTertiary: "#313638" /* Black */,
       },
     },

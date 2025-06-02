@@ -3,7 +3,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FaStar } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
-import Two from "../../assets/images/HZ15.jpg";
+import Two from "../../assets/images/bg1.jpg";
 
 const HeroSection = () => {
   return (
@@ -21,15 +21,16 @@ const HeroSection = () => {
       <div className="hero-content flex-col lg:flex-row mb-4 md:mb-0 relative z-10">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="md:text-5xl text-3xl text-white font-black">
-            A Gym That Gives You More - Fitness
+            A School That Gives You More - Education & Excellence
             <span className="text-bgSecondary font-bold ml-1">
               Beyond Limits.
             </span>
           </h1>
           <p className="text-white md:text-xl py-3 md:px-24 lg:px-0 lg:py-6">
-            Welcome to your next chapter, we are thrilled to have you join us -
-            best gym in town. Please leave your contacts below and we'll get in
-            touch ASAP.
+            Welcome to your next chapter, we are thrilled to have you join our
+            school – a place where learning and growth go hand in hand. Please
+            leave your contact details below and we'll reach out as soon as
+            possible.
             <span className="text-bgSecondary font-bold"> No commitments.</span>
           </p>
         </div>
@@ -42,7 +43,7 @@ const HeroSection = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="Prashely Maluleke"
+                  placeholder="Jan Mokanzi"
                   className="input input-bordered bg-white"
                   required
                 />
@@ -53,13 +54,13 @@ const HeroSection = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="068 392 8066"
+                  placeholder="081 026 2271"
                   className="input input-bordered bg-white"
                   required
                 />
               </div>
               <div className="form-control mt-1">
-                <button className="btn btn-primary bg-bgSecondary text-bgPrimary">
+                <button className="btn btn-primary bg-primary/55 text-white border-white">
                   Call Me
                 </button>
               </div>
@@ -69,17 +70,14 @@ const HeroSection = () => {
             </form>
           </div>
           <div className="w-full flex gap-5 justify-center text-white mb-2 md:mb-0 mt-2">
-            <div className="text-center ">
+            <div className="text-center">
               <div className="flex gap-1 items-center">
                 <span>
-                  <FcGoogle />
+                  <BsPeopleFill />
                 </span>
-                <span className="font-black">4/5</span>
-                <span>
-                  <FaStar className="text-yellow-500" />
-                </span>
+                <span className="font-black">600+</span>
               </div>
-              <span>Google</span>
+              <span>Learners</span>
             </div>
             <div className="border-l border-gray-500 h-auto"></div>
             <div className="text-center">
@@ -87,19 +85,9 @@ const HeroSection = () => {
                 <span>
                   <BsPeopleFill />
                 </span>
-                <span className="font-black">1200+</span>
+                <span className="font-black">26</span>
               </div>
-              <span>Members</span>
-            </div>
-            <div className="border-l border-gray-500 h-auto"></div>
-            <div className="text-center">
-              <div className="flex gap-1 items-center">
-                <span>
-                  <IoLocationSharp />
-                </span>
-                <span className="font-black">3</span>
-              </div>
-              <span>Locations</span>
+              <span>Staff Members</span>
             </div>
           </div>
         </div>

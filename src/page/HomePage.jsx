@@ -24,11 +24,9 @@ const HomePage = () => {
         <HeroSection />
         <WhyUs />
         <Benefits />
-        <Pricing />
-        <Testimonials />
-        <ContactUs />
         <ImageGrid />
-        <FAQs />
+        <Pricing />
+        <ContactUs />
       </main>
       <footer>
         <Footer />
