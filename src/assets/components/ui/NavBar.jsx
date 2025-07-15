@@ -66,11 +66,11 @@ const NavBar = () => {
 
       {/* Countdown Bar */}
       <div className="w-full bg-blue-900 text-white text-center font-bold py-2">
-        ⏳ Countdown:{" "}
+        New website in:{" "}
         {`${formatTime(timeLeft.days)}:${formatTime(timeLeft.hours)}:${formatTime(
           timeLeft.minutes
         )}:${formatTime(timeLeft.seconds)}`}{" "}
-        left!
+        days
       </div>
     </>
   );
