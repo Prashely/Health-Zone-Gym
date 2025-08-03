@@ -1,16 +1,13 @@
 import React from "react";
-import { FcGoogle } from "react-icons/fc";
-import { FaStar } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
-import { IoLocationSharp } from "react-icons/io5";
-import Two from "../../assets/images/vice.jpg";
+import Bg from "../../assets/images/10.jpg";
 
 const HeroSection = () => {
   return (
     <section
       className="hero min-h-screen relative bg-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url(${Two})`,
+        backgroundImage: `url(${Bg})`,
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
       }}
@@ -18,7 +15,7 @@ const HeroSection = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
-      <div className="hero-content flex-col lg:flex-row mb-4 md:mb-0 relative z-10">
+      <div className="sm:w-[80%] lg:w-full lg:flex items-center justify-center mb-4 md:mb-0 relative z-10">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="md:text-5xl text-3xl text-white font-black">
             A School That Gives You More - Education & Excellence
@@ -35,7 +32,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div>
-          <div className="card w-full md:w-[370px] shrink-0 shadow-2xl bg-bgPrimary mb-0">
+          <div className="card w-[95%] mx-auto lg:mx-0 md:px-0 md:w-[370px] shrink-0 shadow-2xl bg-bgPrimary mb-0">
             <form className="card-body">
               <div className="form-control">
                 <label className="label">
