@@ -44,7 +44,7 @@ const TeachersSection = () => {
   return (
     <section className="lg:w-[80%] mx-auto py-12 px-4 md:px-8 lg:px-16">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold mb-2 text-primary">
+        <h2 className="text-3xl font-bold mb-2 text-bgPrimary">
           Meet Our Teachers
         </h2>
         <p className="text-gray-600">Dedicated educators shaping the future.</p>
