@@ -70,7 +70,7 @@ const WhyUs = () => {
 
   return (
     <section className="w-full flex flex-col items-center justify-center my-6">
-      <h2 className="text-xl lg:text-4xl text-bgPrimary font-semibold text-center mb-4 tracking-tighter">
+      <h2 className="max-w-[90%] mx-auto text-xl lg:text-4xl text-bgPrimary font-semibold text-center mb-4 tracking-tighter">
         Our Mission At Matlhaba Secondary School?
       </h2>
 
