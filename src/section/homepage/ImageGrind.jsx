@@ -1,7 +1,7 @@
 import React from "react";
 import One from "../../assets/images/some.jpg";
 import Two from "../../assets/images/kids.jpg";
-import Three from "../../assets/images/dennis.jpg";
+import Three from "../../assets/images/yo.jpg";
 
 const ImageGrid = () => {
   return (

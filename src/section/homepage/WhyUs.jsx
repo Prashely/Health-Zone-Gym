@@ -3,7 +3,7 @@ import { GoDot, GoDotFill } from "react-icons/go";
 import Reasons from "../../assets/components/ui/Reasons";
 import Twelve from "../../assets/images/vice.jpg";
 import Seven from "../../assets/images/yo.jpg";
-import Eleven from "../../assets/images/bg3.jpg";
+import Eleven from "../../assets/images/some.jpg";
 import { HiAcademicCap } from "react-icons/hi2";
 import { FaAppleWhole } from "react-icons/fa6";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";

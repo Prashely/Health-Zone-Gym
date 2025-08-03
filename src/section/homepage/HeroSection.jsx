@@ -3,7 +3,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FaStar } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
-import Two from "../../assets/images/bg1.jpg";
+import Two from "../../assets/images/vice.jpg";
 
 const HeroSection = () => {
   return (
