@@ -4,7 +4,7 @@ const Reasons = ({ imageSrc, title, description, icon }) => {
   console.log("Reasons component rendered"); // For checking unnecessary renders
 
   return (
-    <div className="relative w-[95vw] lg:w-[380px] 2xl:w-[600px]  lg:h-[500px] 2xl:h-[750px] overflow-hidden rounded-lg shadow-lg">
+    <div className="relative mx-auto w-[95%] h-[420px] lg:w-[380px] 2xl:w-[600px]  lg:h-[500px] 2xl:h-[750px] overflow-hidden rounded-lg shadow-lg">
       <img
         src={imageSrc}
         alt={title}
