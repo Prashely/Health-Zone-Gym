@@ -1,50 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Logo from "../../images/logo.jpg";
 
 const NavBar = () => {
-  const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
-  });
-
-  useEffect(() => {
-    let targetTime = localStorage.getItem("countdownTarget");
-
-    if (!targetTime) {
-      // Set new target 5 days from now
-      const target = new Date();
-      target.setDate(target.getDate() + 5);
-      localStorage.setItem("countdownTarget", target.toISOString());
-      targetTime = target.toISOString();
-    }
-
-    const targetDate = new Date(targetTime).getTime();
-
-    const interval = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = targetDate - now;
-
-      if (distance <= 0) {
-        clearInterval(interval);
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-        return;
-      }
-
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((distance / 1000 / 60) % 60);
-      const seconds = Math.floor((distance / 1000) % 60);
-
-      setTimeLeft({ days, hours, minutes, seconds });
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const formatTime = (num) => String(num).padStart(2, "0");
-
   return (
     <>
       <nav className="bg-white shadow-md w-full">
@@ -64,13 +21,16 @@ const NavBar = () => {
         </div>
       </nav>
 
-      {/* Countdown Bar */}
+      {/* Download Past Paper Bar */}
       <div className="w-full bg-blue-900 text-white text-center font-bold py-2">
-        New website in:{" "}
-        {`${formatTime(timeLeft.days)}:${formatTime(timeLeft.hours)}:${formatTime(
-          timeLeft.minutes
-        )}:${formatTime(timeLeft.seconds)}`}{" "}
-        days
+        <a
+          href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-gray-200 transition"
+        >
+          📄 Download Past Exam Papers Here
+        </a>
       </div>
     </>
   );

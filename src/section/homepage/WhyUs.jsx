@@ -70,8 +70,8 @@ const WhyUs = () => {
 
   return (
     <section className="w-full flex flex-col items-center justify-center my-6">
-      <h2 className="text-xl lg:text-2xl text-bgPrimary font-semibold text-center mb-4 tracking-tighter">
-        Why Choose Dennis Matlhaba Secondary School?
+      <h2 className="text-xl lg:text-4xl text-bgPrimary font-semibold text-center mb-4 tracking-tighter">
+        Our Mission At Matlhaba Secondary School?
       </h2>
 
       <div className="w-full flex flex-col justify-center">

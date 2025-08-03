@@ -6,7 +6,7 @@ export default {
       colors: {
         bgPrimary: "#003366" /*Dark Blue */,
         primary: "#6286c7" /*Light Blue */,
-        bgSecondary: "##edb634" /* Yellow */,
+        bgSecondary: "#edb634" /* Yellow */,
         bgTertiary: "#313638" /* Black */,
       },
     },

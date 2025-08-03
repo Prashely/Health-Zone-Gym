@@ -8,11 +8,11 @@ const Benefits = () => {
       style={{ backgroundImage: `url(${One})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-primary/70 z-0" />
+      <div className="absolute inset-0 bg-bgPrimary/70 z-0" />
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto flex flex-col items-start lg:items-center text-left lg:text-center">
-        <p className="font-black tracking-tighter text-white text-base lg:text-xl mb-2">
+        <p className="font-black tracking-tighter text-bgSecondary text-base lg:text-xl mb-2">
           Dennis Matlhaba ll Secondary School
         </p>
 

@@ -8,6 +8,7 @@ import ContactUs from "../section/homepage/ContactUs";
 import ImageGrid from "../section/homepage/ImageGrind";
 import ChatbotIcon from "../assets/components/chatbot/ChatBotIcon";
 import Chatbot from "../assets/components/chatbot/Chatbot";
+import TeacherSection from "../section/homepage/TeacherSection";
 
 const HomePage = () => {
   const [showChatbot, setShowChatbot] = useState(false);
@@ -21,6 +22,7 @@ const HomePage = () => {
         <HeroSection />
         <WhyUs />
         <Benefits />
+        <TeacherSection />
         <ImageGrid />
         <ContactUs />
       </main>
