@@ -62,7 +62,7 @@ const TeachersSection = () => {
       </div>
 
       <div className="text-center mt-10">
-        <button className="w-full lg:w-[400px] bg-bgPrimary text-white py-2 rounded-lg hover:bg-primary transition-colors focus:outline-none focus:ring-4 focus:ring-teal-300">
+        <button className="w-full lg:w-[400px] bg-bgPrimary text-white py-2 rounded-lg hover:bg-primary transition-colors">
           View All
         </button>
       </div>
