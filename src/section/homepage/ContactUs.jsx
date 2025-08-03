@@ -46,7 +46,7 @@ const ContactUs = () => {
           {/* Contact Info Box */}
           <div className="w-full px-4 lg:w-1/2">
             <div className="rounded-xl bg-white p-8 shadow-lg sm:p-10 md:p-12 lg:p-10 xl:p-12">
-              <h2 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
+              <h2 className="mb-4 text-3xl font-bold text-bgSecondary sm:text-4xl">
                 Get in Touch with the School
               </h2>
               <p className="mb-8 text-gray-600">
@@ -65,7 +65,7 @@ const ContactUs = () => {
                       className="w-10 h-10 object-contain"
                     />
                     <div>
-                      <h4 className="text-lg font-semibold text-gray-800">
+                      <h4 className="text-lg font-semibold text-bgSecondary">
                         {contact.title}
                       </h4>
                       <a

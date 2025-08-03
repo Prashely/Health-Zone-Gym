@@ -6,6 +6,7 @@ import Three from "../../assets/images/teachers/3.jpg";
 import Four from "../../assets/images/teachers/4.jpg";
 import Five from "../../assets/images/teachers/5.jpg";
 import Six from "../../assets/images/teachers/d.png";
+import { useNavigate } from "react-router-dom";
 
 const teachers = [
   {
@@ -31,16 +32,18 @@ const teachers = [
   {
     image: Five,
     name: "Ledwaba KJ",
-    role: "Agricultural Sciences,Life Sciences ,Geography & History",
+    role: "Agricultural Sciences, Life Sciences, Geography & History",
   },
   {
     image: Six,
     name: "Dinyane MM",
-    role: "Accounting ,Economics & Economic Management Sciences",
+    role: "Accounting, Economics & Economic Management Sciences",
   },
 ];
 
 const TeachersSection = () => {
+  const navigate = useNavigate(); // ✅ Moved inside
+
   return (
     <section className="lg:w-[80%] mx-auto py-12 px-4 md:px-8 lg:px-16">
       <div className="text-center mb-8">
@@ -62,7 +65,10 @@ const TeachersSection = () => {
       </div>
 
       <div className="text-center mt-10">
-        <button className="w-full lg:w-[400px] bg-bgPrimary text-white py-2 rounded-lg hover:bg-primary transition-colors">
+        <button
+          onClick={() => navigate("/teachers")}
+          className="w-full lg:w-[400px] bg-bgPrimary text-white py-2 rounded-lg hover:bg-primary transition-colors"
+        >
           View All
         </button>
       </div>

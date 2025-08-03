@@ -1,12 +1,15 @@
-import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./page/HomePage";
+import TeachersPage from "./page/TeachersPage";
 
-const App = () => {
+function App() {
   return (
-    <div className="w-full min-h-screen">
-      <Home />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/teachers" element={<TeachersPage />} />
+      </Routes>
+    </Router>
   );
-};
-
+}
 export default App;
