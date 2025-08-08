@@ -12,7 +12,7 @@ import Seven from "../assets/images/teachers/6.jpeg";
 
 const allTeachers = [
   { image: One, name: "Mokanzi JJ", role: "Principal" },
-  { image: Two, name: "Name Surname", role: "Vice Principal" },
+  { image: Two, name: "Name Surname", role: "Acting Deputy Principal" },
   { image: Three, name: "Chauke EN", role: "Sepedi & LO Teacher" },
   { image: Four, name: "Kekana MA", role: "MST Department Head" },
   {
