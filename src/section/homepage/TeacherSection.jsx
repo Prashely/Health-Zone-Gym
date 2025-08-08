@@ -17,7 +17,7 @@ const teachers = [
   {
     image: Two,
     name: "Molokomme KE",
-    role: "Deputy Principal",
+    role: "Acting Deputy Principal",
   },
   {
     image: Three,
